@@ -1,0 +1,47 @@
+{
+  "name": "@gusnips/assinafy",
+  "version": "1.0.0",
+  "description": "Same package as assinafy, under the @gusnips name. Installs assinafy and re-exports all of it.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts"
+  ],
+  "keywords": [
+    "alias",
+    "assinafy"
+  ],
+  "author": "Gustavo Salomé (gusnips)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusnips/npm-aliases.git",
+    "directory": "assinafy"
+  },
+  "homepage": "https://github.com/gusnips/assinafy#readme",
+  "bugs": {
+    "url": "https://github.com/gusnips/assinafy/issues"
+  },
+  "dependencies": {
+    "assinafy": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

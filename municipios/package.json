@@ -1,0 +1,61 @@
+{
+  "name": "@gusnips/municipios",
+  "version": "1.0.0",
+  "description": "Same package as municipios-brasil, under the @gusnips name. Installs municipios-brasil and re-exports all of it.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    },
+    "./dados": {
+      "import": {
+        "types": "./dados.d.mts",
+        "default": "./dados.mjs"
+      },
+      "require": {
+        "types": "./dados.d.ts",
+        "default": "./dados.js"
+      }
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts",
+    "dados.js",
+    "dados.mjs",
+    "dados.d.ts",
+    "dados.d.mts"
+  ],
+  "keywords": [
+    "alias",
+    "municipios-brasil"
+  ],
+  "author": "Gustavo Salomé (gusnips)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusnips/npm-aliases.git",
+    "directory": "municipios"
+  },
+  "homepage": "https://github.com/gusnips/municipios-brasil#readme",
+  "bugs": {
+    "url": "https://github.com/gusnips/municipios-brasil/issues"
+  },
+  "dependencies": {
+    "municipios-brasil": ">=0.2.1 <1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
