@@ -1,0 +1,47 @@
+{
+  "name": "@gusnips/targetdata",
+  "version": "1.0.0",
+  "description": "Same package as targetdata, under the @gusnips name. Installs targetdata and re-exports all of it.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts"
+  ],
+  "keywords": [
+    "alias",
+    "targetdata"
+  ],
+  "author": "Gustavo Salomé (gusnips)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusnips/npm-aliases.git",
+    "directory": "targetdata"
+  },
+  "homepage": "https://github.com/gusnips/targetdata#readme",
+  "bugs": {
+    "url": "https://github.com/gusnips/targetdata/issues"
+  },
+  "dependencies": {
+    "targetdata": ">=0.1.0 <1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
