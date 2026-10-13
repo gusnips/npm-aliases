@@ -10,8 +10,9 @@ The `@gusnips/*` names for my npm packages. Each one depends on the real package
 | `@gusnips/falai` | `@falai/agent` | `^4.0.0` |
 | `@gusnips/municipios` | `municipios-brasil` | `>=0.2.1 <1.0.0` |
 | `@gusnips/targetdata` | `targetdata` | `>=0.1.0 <1.0.0` |
+| `@gusnips/netcup` | `netcup-sdk` | `>=0.1.0 <1.0.0` |
 
-Docs and source stay with the real package. An alias needs a new release only when the real package moves to a new major version. The three 0.x packages use a range that stops at 1.0.0, so every 0.x release reaches the alias by itself.
+Docs and source stay with the real package. An alias needs a new release only when the real package moves to a new major version. The packages below `1.0.0` use a range that stops at `1.0.0`, so each new `0.x` release reaches the alias by itself.
 
 ## Publish
 
