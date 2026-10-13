@@ -1,0 +1,23 @@
+{
+  "name": "@gusnips/netcup",
+  "version": "1.0.0",
+  "description": "Same package as netcup-sdk, under the @gusnips name. Installs netcup-sdk and re-exports all of it.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": { "types": "./index.d.mts", "default": "./index.mjs" },
+      "require": { "types": "./index.d.ts", "default": "./index.js" }
+    }
+  },
+  "files": ["index.js", "index.mjs", "index.d.ts", "index.d.mts"],
+  "keywords": ["alias", "netcup", "netcup-sdk"],
+  "author": "Gustavo Salomé (gusnips)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/gusnips/npm-aliases.git", "directory": "netcup" },
+  "homepage": "https://github.com/gusnips/netcup#readme",
+  "bugs": { "url": "https://github.com/gusnips/netcup/issues" },
+  "dependencies": { "netcup-sdk": ">=0.1.0 <1.0.0" },
+  "publishConfig": { "access": "public" }
+}
