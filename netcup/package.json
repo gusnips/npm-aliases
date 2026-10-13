@@ -7,17 +7,42 @@
   "types": "index.d.ts",
   "exports": {
     ".": {
-      "import": { "types": "./index.d.mts", "default": "./index.mjs" },
-      "require": { "types": "./index.d.ts", "default": "./index.js" }
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
     }
   },
-  "files": ["index.js", "index.mjs", "index.d.ts", "index.d.mts"],
-  "keywords": ["alias", "netcup", "netcup-sdk"],
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts"
+  ],
+  "keywords": [
+    "alias",
+    "netcup",
+    "netcup-sdk"
+  ],
   "author": "Gustavo Salomé (gusnips)",
   "license": "MIT",
-  "repository": { "type": "git", "url": "git+https://github.com/gusnips/npm-aliases.git", "directory": "netcup" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusnips/npm-aliases.git",
+    "directory": "netcup"
+  },
   "homepage": "https://github.com/gusnips/netcup#readme",
-  "bugs": { "url": "https://github.com/gusnips/netcup/issues" },
-  "dependencies": { "netcup-sdk": ">=0.1.0 <1.0.0" },
-  "publishConfig": { "access": "public" }
+  "bugs": {
+    "url": "https://github.com/gusnips/netcup/issues"
+  },
+  "dependencies": {
+    "netcup-sdk": ">=0.1.0 <1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
