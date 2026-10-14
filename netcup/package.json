@@ -1,7 +1,7 @@
 {
   "name": "@gusnips/netcup",
-  "version": "1.0.0",
-  "description": "Same package as netcup-sdk, under the @gusnips name. Installs netcup-sdk and re-exports all of it.",
+  "version": "1.1.0",
+  "description": "The netcup-sdk command and JavaScript client under the @gusnips name.",
   "main": "index.js",
   "module": "index.mjs",
   "types": "index.d.ts",
@@ -17,7 +17,11 @@
       }
     }
   },
+  "bin": {
+    "netcup": "cli.js"
+  },
   "files": [
+    "cli.js",
     "index.js",
     "index.mjs",
     "index.d.ts",
@@ -40,7 +44,7 @@
     "url": "https://github.com/gusnips/netcup/issues"
   },
   "dependencies": {
-    "netcup-sdk": ">=0.1.0 <1.0.0"
+    "netcup-sdk": ">=0.2.0 <1.0.0"
   },
   "publishConfig": {
     "access": "public"
