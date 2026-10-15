@@ -1,0 +1,47 @@
+{
+  "name": "@gusnips/scrapecreators",
+  "version": "1.0.0",
+  "description": "Same package as scrapecreators, under the @gusnips name. Installs scrapecreators and re-exports all of it.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts"
+  ],
+  "keywords": [
+    "alias",
+    "scrapecreators"
+  ],
+  "author": "Gustavo Salomé (gusnips)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusnips/npm-aliases.git",
+    "directory": "scrapecreators"
+  },
+  "homepage": "https://github.com/gusnips/scrapecreators#readme",
+  "bugs": {
+    "url": "https://github.com/gusnips/scrapecreators/issues"
+  },
+  "dependencies": {
+    "scrapecreators": ">=0.1.0 <1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
