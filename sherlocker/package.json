@@ -1,0 +1,47 @@
+{
+  "name": "@gusnips/sherlocker",
+  "version": "1.0.0",
+  "description": "Same package as sherlocker, under the @gusnips name. Installs sherlocker and re-exports all of it.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      }
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "index.d.mts"
+  ],
+  "keywords": [
+    "alias",
+    "sherlocker"
+  ],
+  "author": "Gustavo Salomé (gusnips)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusnips/npm-aliases.git",
+    "directory": "sherlocker"
+  },
+  "homepage": "https://github.com/gusnips/sherlocker#readme",
+  "bugs": {
+    "url": "https://github.com/gusnips/sherlocker/issues"
+  },
+  "dependencies": {
+    "sherlocker": ">=0.1.0 <1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
