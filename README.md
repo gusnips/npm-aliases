@@ -14,6 +14,7 @@ The `@gusnips/*` names for my npm packages. Each one depends on the real package
 | `@gusnips/sociavault`     | `sociavault`        | `>=0.1.0 <1.0.0` |
 | `@gusnips/scrapecreators` | `scrapecreators`    | `>=0.1.0 <1.0.0` |
 | `@gusnips/sherlocker`     | `sherlocker`        | `>=0.1.0 <1.0.0` |
+| `@gusnips/dbase`          | `dbase-sdk`         | `>=0.1.0 <1.0.0` |
 
 Docs and source stay with the real package. An alias needs a new release only when the real package moves to a new major version. The packages below `1.0.0` use a range that stops at `1.0.0`, so each new `0.x` release reaches the alias by itself.
 
